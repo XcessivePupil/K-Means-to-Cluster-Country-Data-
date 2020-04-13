@@ -10,6 +10,7 @@ Following this, the user is asked to input their required number of clusters as 
 The program then creates the requested number of centroids as random datapoints. Using the K-means algorithm each exsisting datapoint is asigned to the nearest centroid. From there the following 2 steps are repeated until either the requested number of iterations are completed or convergence is reached. The mentioed 2 steps:
 
 ○ Assign each datapoint to the nearest cluster
+
 ○ Compute the means for each cluster as the mean for all the points that belong to it
 
 Comverence is this case is defined as the point at which the means of each cluster reach a
