@@ -1,110 +1,3 @@
-Number of clusters: 4
-Number of iterations: 25
--------------------------------------
-Sum of squared distance per iteration: 
-
-Iteration: 1 
-
-Cluster 1 sum of squared distance:  105.64
-Cluster 2 sum of squared distance:  558.46
-Cluster 3 sum of squared distance:  311.63
-Cluster 4 sum of squared distance:  103.17
-Total:  1078.9
-
-Iteration: 2 
-
-Cluster 1 sum of squared distance:  168.89
-Cluster 2 sum of squared distance:  402.17
-Cluster 3 sum of squared distance:  167.79
-Cluster 4 sum of squared distance:  206.38
-Total:  945.24
-
-Iteration: 3 
-
-Cluster 1 sum of squared distance:  176.1
-Cluster 2 sum of squared distance:  358.59
-Cluster 3 sum of squared distance:  160.38
-Cluster 4 sum of squared distance:  223.11
-Total:  918.18
-
-Iteration: 4 
-
-Cluster 1 sum of squared distance:  176.1
-Cluster 2 sum of squared distance:  310.44
-Cluster 3 sum of squared distance:  160.38
-Cluster 4 sum of squared distance:  255.82
-Total:  902.74
-
-Iteration: 5 
-
-Cluster 1 sum of squared distance:  176.1
-Cluster 2 sum of squared distance:  284.31
-Cluster 3 sum of squared distance:  160.38
-Cluster 4 sum of squared distance:  275.15
-Total:  895.93
-
-Iteration: 6 
-
-Cluster 1 sum of squared distance:  176.1
-Cluster 2 sum of squared distance:  278.33
-Cluster 3 sum of squared distance:  160.38
-Cluster 4 sum of squared distance:  279.71
-Total:  894.52
-
-Iteration: 7 
-
-Cluster 1 sum of squared distance:  176.1
-Cluster 2 sum of squared distance:  263.52
-Cluster 3 sum of squared distance:  160.38
-Cluster 4 sum of squared distance:  292.51
-Total:  892.5
-
-Iteration: 8 
-
-Cluster 1 sum of squared distance:  176.1
-Cluster 2 sum of squared distance:  263.52
-Cluster 3 sum of squared distance:  160.38
-Cluster 4 sum of squared distance:  292.51
-Total:  892.5
-
-Convergence has been reached!
--------------------------------------
-
-Number of Countries per Cluster: 
-
-Cluster  1: 32 countries.
-Cluster  2: 69 countries.
-Cluster  3: 28 countries.
-Cluster  4: 67 countries.
--------------------------------------
-
-Countries Belonging to Each Cluster: 
-
-
-Cluster 1: 
-
- ['Afghanistan', 'Angola', 'Benin', 'Burkina Faso', 'Burundi', 'Cameroon', 'Central African Rep.', 'Chad', 'Congo  Dem. Rep.', "Cote d'Ivoire", 'Equatorial Guinea', 'Ethiopia', 'Gambia', 'Guinea', 'Guinea-Bissau', 'Kenya', 'Lesotho', 'Liberia', 'Malawi', 'Mali', 'Mozambique', 'Niger', 'Nigeria', 'Rwanda', 'Senegal', 'Sierra Leone', 'Somalia', 'Swaziland', 'Tanzania', 'Uganda', 'Zambia', 'Zimbabwe']
-
-Cluster 2: 
-
- ['Albania', 'Armenia', 'Aruba', 'Australia', 'Austria', 'Barbados', 'Belarus', 'Belgium', 'Bosnia and Herzegovina', 'Bulgaria', 'Canada', 'Channel Islands', 'Chile', 'China', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Rep.', 'Denmark', 'Estonia', 'Finland', 'France', 'Georgia', 'Germany', 'Greece', 'Guadeloupe', 'Hong Kong  China', 'Hungary', 'Iceland', 'Ireland', 'Italy', 'Japan', 'Korea  Rep.', 'Latvia', 'Lithuania', 'Luxembourg', 'Macao  China', 'Macedonia  FYR', 'Malta', 'Martinique', 'Mauritius', 'Moldova', 'Montenegro', 'Netherlands', 'Netherlands Antilles', 'New Caledonia', 'New Zealand', 'Norway', 'Poland', 'Portugal', 'Puerto Rico', 'Qatar', 'Romania', 'Russia', 'Serbia', 'Singapore', 'Slovak Republic', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'Thailand', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Virgin Islands (U.S.)']
-
-Cluster 3: 
-
- ['Bolivia', 'Botswana', 'Cambodia', 'Comoros', 'Congo  Rep.', 'Djibouti', 'Eritrea', 'Gabon', 'Ghana', 'Guatemala', 'Haiti', 'Iraq', 'Laos', 'Madagascar', 'Mauritania', 'Namibia', 'Pakistan', 'Papua New Guinea', 'Sao Tome and Principe', 'Solomon Islands', 'South Africa', 'Sudan', 'Tajikistan', 'Timor-Leste', 'Togo', 'Vanuatu', 'West Bank and Gaza', 'Yemen  Rep.']
-
-Cluster 4: 
-
- ['Algeria', 'Argentina', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Belize', 'Bhutan', 'Brazil', 'Brunei', 'Cape Verde', 'Colombia', 'Dominican Rep.', 'Ecuador', 'Egypt', 'El Salvador', 'Fiji', 'French Guiana', 'French Polynesia', 'Grenada', 'Guam', 'Guyana', 'Honduras', 'India', 'Indonesia', 'Iran', 'Israel', 'Jamaica', 'Jordan', 'Kazakhstan', 'Korea  Dem. Rep.', 'Kuwait', 'Kyrgyzstan', 'Lebanon', 'Libya', 'Malaysia', 'Maldives', 'Mayotte', 'Mexico', 'Micronesia  Fed. Sts.', 'Mongolia', 'Morocco', 'Myanmar', 'Nepal', 'Nicaragua', 'Oman', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Reunion', 'Saint Lucia', 'Saint Vincent and the Grenadines', 'Samoa', 'Saudi Arabia', 'Sri Lanka', 'Suriname', 'Syria', 'Tonga', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'Uzbekistan', 'Venezuela', 'Vietnam', 'Western Sahara']
--------------------------------------
-
-The mean Life Expectancy and Birth Rate for each cluster: 
-
-Cluster 1: Life Expectancy: 51.14| Birth Rate: 40.14
-Cluster 2: Life Expectancy: 77.24| Birth Rate: 11.56
-Cluster 3: Life Expectancy: 62.39| Birth Rate: 31.14
-Cluster 4: Life Expectancy: 72.07| Birth Rate: 20.91
-(base) Andrews-Air-2:17 andrewk$ python kmeans.py
 
 Number of clusters: 4
 Number of iterations: 25
@@ -207,19 +100,37 @@ Countries Belonging to Each Cluster:
 
 Cluster 1: 
 
- ['Bhutan', 'Bolivia', 'Botswana', 'Cambodia', 'Comoros', 'Djibouti', 'Gabon', 'Ghana', 'Guatemala', 'Haiti', 'Honduras', 'India', 'Iraq', 'Kyrgyzstan', 'Laos', 'Madagascar', 'Micronesia  Fed. Sts.', 'Myanmar', 'Namibia', 'Nepal', 'Pakistan', 'Papua New Guinea', 'Philippines', 'Sao Tome and Principe', 'Solomon Islands', 'South Africa', 'Sudan', 'Tajikistan', 'Tonga', 'Turkmenistan', 'Vanuatu', 'West Bank and Gaza', 'Western Sahara', 'Yemen  Rep.']
+ ['Bhutan', 'Bolivia', 'Botswana', 'Cambodia', 'Comoros', 'Djibouti', 'Gabon', 'Ghana', 'Guatemala', 'Haiti', 'Honduras',
+ 'India', 'Iraq', 'Kyrgyzstan', 'Laos', 'Madagascar', 'Micronesia  Fed. Sts.', 'Myanmar', 'Namibia', 'Nepal', 'Pakistan',
+ 'Papua New Guinea', 'Philippines', 'Sao Tome and Principe', 'Solomon Islands', 'South Africa', 'Sudan', 'Tajikistan', 
+ 'Tonga', 'Turkmenistan', 'Vanuatu', 'West Bank and Gaza', 'Western Sahara', 'Yemen  Rep.']
 
 Cluster 2: 
 
- ['Albania', 'Aruba', 'Australia', 'Austria', 'Barbados', 'Belarus', 'Belgium', 'Bosnia and Herzegovina', 'Bulgaria', 'Canada', 'Channel Islands', 'Chile', 'China', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Rep.', 'Denmark', 'Estonia', 'Finland', 'France', 'Georgia', 'Germany', 'Greece', 'Guadeloupe', 'Hong Kong  China', 'Hungary', 'Iceland', 'Ireland', 'Italy', 'Japan', 'Korea  Rep.', 'Latvia', 'Lithuania', 'Luxembourg', 'Macao  China', 'Macedonia  FYR', 'Malta', 'Martinique', 'Montenegro', 'Netherlands', 'Netherlands Antilles', 'New Zealand', 'Norway', 'Poland', 'Portugal', 'Puerto Rico', 'Qatar', 'Romania', 'Russia', 'Serbia', 'Singapore', 'Slovak Republic', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Virgin Islands (U.S.)']
+ ['Albania', 'Aruba', 'Australia', 'Austria', 'Barbados', 'Belarus', 'Belgium', 'Bosnia and Herzegovina', 'Bulgaria',
+ 'Canada', 'Channel Islands', 'Chile', 'China', 'Costa Rica', 'Croatia', 'Cuba', 'Cyprus', 'Czech Rep.', 'Denmark', 'Estonia',
+ 'Finland', 'France', 'Georgia', 'Germany', 'Greece', 'Guadeloupe', 'Hong Kong  China', 'Hungary', 'Iceland', 'Ireland', 
+ 'Italy', 'Japan', 'Korea  Rep.', 'Latvia', 'Lithuania', 'Luxembourg', 'Macao  China', 'Macedonia  FYR', 'Malta', 
+ 'Martinique', 'Montenegro', 'Netherlands', 'Netherlands Antilles', 'New Zealand', 'Norway', 'Poland', 'Portugal', 'Puerto 
+ Rico', 'Qatar', 'Romania', 'Russia', 'Serbia', 'Singapore', 'Slovak Republic', 'Slovenia', 'Spain', 'Sweden', 'Switzerland', 
+ 'Ukraine', 'United Arab Emirates', 'United Kingdom', 'United States', 'Uruguay', 'Virgin Islands (U.S.)']
 
 Cluster 3: 
 
- ['Algeria', 'Argentina', 'Armenia', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Belize', 'Brazil', 'Brunei', 'Cape Verde', 'Colombia', 'Dominican Rep.', 'Ecuador', 'Egypt', 'El Salvador', 'Fiji', 'French Guiana', 'French Polynesia', 'Grenada', 'Guam', 'Guyana', 'Indonesia', 'Iran', 'Israel', 'Jamaica', 'Jordan', 'Kazakhstan', 'Korea  Dem. Rep.', 'Kuwait', 'Lebanon', 'Libya', 'Malaysia', 'Maldives', 'Mauritius', 'Mayotte', 'Mexico', 'Moldova', 'Mongolia', 'Morocco', 'New Caledonia', 'Nicaragua', 'Oman', 'Panama', 'Paraguay', 'Peru', 'Reunion', 'Saint Lucia', 'Saint Vincent and the Grenadines', 'Samoa', 'Saudi Arabia', 'Sri Lanka', 'Suriname', 'Syria', 'Thailand', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Uzbekistan', 'Venezuela', 'Vietnam']
+ ['Algeria', 'Argentina', 'Armenia', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Belize', 'Brazil', 'Brunei', 'Cape 
+ Verde', 'Colombia', 'Dominican Rep.', 'Ecuador', 'Egypt', 'El Salvador', 'Fiji', 'French Guiana', 'French Polynesia',
+ 'Grenada', 'Guam', 'Guyana', 'Indonesia', 'Iran', 'Israel', 'Jamaica', 'Jordan', 'Kazakhstan', 'Korea  Dem. Rep.', 'Kuwait',
+ 'Lebanon', 'Libya', 'Malaysia', 'Maldives', 'Mauritius', 'Mayotte', 'Mexico', 'Moldova', 'Mongolia', 'Morocco', 'New 
+ Caledonia', 'Nicaragua', 'Oman', 'Panama', 'Paraguay', 'Peru', 'Reunion', 'Saint Lucia', 'Saint Vincent and the Grenadines',
+ 'Samoa', 'Saudi Arabia', 'Sri Lanka', 'Suriname', 'Syria', 'Thailand', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 
+ 'Uzbekistan', 'Venezuela', 'Vietnam']
 
 Cluster 4: 
 
- ['Afghanistan', 'Angola', 'Benin', 'Burkina Faso', 'Burundi', 'Cameroon', 'Central African Rep.', 'Chad', 'Congo  Dem. Rep.', 'Congo  Rep.', "Cote d'Ivoire", 'Equatorial Guinea', 'Eritrea', 'Ethiopia', 'Gambia', 'Guinea', 'Guinea-Bissau', 'Kenya', 'Lesotho', 'Liberia', 'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Niger', 'Nigeria', 'Rwanda', 'Senegal', 'Sierra Leone', 'Somalia', 'Swaziland', 'Tanzania', 'Timor-Leste', 'Togo', 'Uganda', 'Zambia', 'Zimbabwe']
+ ['Afghanistan', 'Angola', 'Benin', 'Burkina Faso', 'Burundi', 'Cameroon', 'Central African Rep.', 'Chad', 'Congo  Dem. Rep.',
+ 'Congo  Rep.', "Cote d'Ivoire", 'Equatorial Guinea', 'Eritrea', 'Ethiopia', 'Gambia', 'Guinea', 'Guinea-Bissau', 'Kenya',
+ 'Lesotho', 'Liberia', 'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Niger', 'Nigeria', 'Rwanda', 'Senegal', 'Sierra Leone',
+ 'Somalia', 'Swaziland', 'Tanzania', 'Timor-Leste', 'Togo', 'Uganda', 'Zambia', 'Zimbabwe']
 -------------------------------------
 
 The mean Life Expectancy and Birth Rate for each cluster: 
