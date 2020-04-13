@@ -13,5 +13,5 @@ The program then creates the requested number of centroids as random datapoints.
 
 ○ Compute the means for each cluster as the mean for all the points that belong to it
 
-Comverence is this case is defined as the point at which the means of each cluster reach a
-certain value and continuing to run the algorithm doesn’t make this value change. 
+Comverence in this case is defined as the point at which the means of each cluster reach a
+certain "minimum" value and continuing to run the algorithm doesn’t make this value change. 
