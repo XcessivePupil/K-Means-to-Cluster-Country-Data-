@@ -7,7 +7,7 @@ The program reads in data from one of three datasets. The data included in each 
 
 Following this, the user is asked to input their required number of clusters as well as the number of iterations they wish the program to complete.
 
-The program then creates the requested number of centroids as random datapoints. Using the K-means algorithm each exsisting datapoint is asigned to the nearest centroid. From there the following 2 steps are repeated until either the requested number of iterations are completed or convergence is reached. The mentioed 2 steps:
+The program then creates the requested number of centroids as random datapoints. Using the K-means algorithm each exsisting datapoint is asigned to the nearest centroid. From there the following 2 steps are repeated until either the requested number of iterations are completed or convergence is reached. The mentioned 2 steps:
 
 ○ Assign each datapoint to the nearest cluster
 
